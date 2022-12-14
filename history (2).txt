@@ -1,0 +1,8 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -3 >/tmp/file.txt
+   2 export Name=Denys Var=Demeshko
+   3 echo $Name $Var >>/tmp/file.txt
+   4 unset Name Var
+   5 env
+   6 vi /tmp/file.txt 
+   7 history >/tmp/history.txt
